@@ -5,3 +5,5 @@ public class GameException extends Exception{
         super(message);
     }
 }
+
+// test
