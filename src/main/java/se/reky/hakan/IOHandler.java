@@ -23,17 +23,19 @@ public class IOHandler {
         System.out.println("Thank you for playing!");
     }
 
-    void output(String toOutput){
+    void output(String toOutput) {
         System.out.println(toOutput);
     }
 
-    int nextInt(){
+    int nextInt() {
         return scanner.nextInt();
     }
-    String nextLine(){
+
+    String nextLine() {
         return scanner.nextLine();
     }
-    boolean hasNextInt(){
+
+    boolean hasNextInt() {
         return scanner.hasNextInt();
     }
 
