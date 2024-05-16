@@ -21,8 +21,4 @@ class ActorTest {
         player.attack(goblin);
         assertEquals(30, goblin.getHp());
     }
-
-
-
-
 }

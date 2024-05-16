@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
-    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
     <title>Player Stats</title>
 </head>
 <body>
@@ -14,7 +14,5 @@
     <li>Weapon: <span class="player-weapon" th:text="${player.getWeapon}"></span></li>
     <li>Silver Ring: <span class="silver-ring" th:text="${silverRing}"></span></li>
 </ul>
-
-
 </body>
 </html>
