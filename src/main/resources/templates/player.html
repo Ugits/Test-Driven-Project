@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Player Stats</title>
+</head>
+<body>
+<h1>Player Stats</h1>
+<ul>
+    <li>Name: <span class="player-name" th:text="${player.getName}"></span></li>
+    <li>Hp: <span class="player-hp" th:text="${player.getHp}"></span></li>
+    <li>Dmg: <span class="player-dmg" th:text="${player.getDamage}"></span></li>
+    <li>Exp: <span class="player-exp" th:text="${player.getExperience}"></span></li>
+    <li>Weapon: <span class="player-weapon" th:text="${player.getWeapon}"></span></li>
+    <li>Silver Ring: <span class="silver-ring" th:text="${silverRing}"></span></li>
+</ul>
+
+
+</body>
+</html>

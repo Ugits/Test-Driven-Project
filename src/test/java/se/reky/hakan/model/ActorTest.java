@@ -9,13 +9,11 @@ class ActorTest {
 
     private Actor player;
     private Actor goblin;
-    private Actor guard;
 
     @BeforeEach
     public void instantiateActor() {
         player = new Player("Jonas", 100, 20);
         goblin = new Goblin("Baba Yaga", 50, 30);
-        guard = new Guard("Gunnar", 170, 50);
     }
 
     @Test
